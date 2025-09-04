@@ -1,6 +1,6 @@
 ## I denne øvelse skal du lege styling!
-
 Styling betyder utrolig meget for førstehåndsindtrykket af din app, så det kan godt betale sig at bruge lidt ekstra tid på at få det til at se lækkert ud.
+
 ---
 
 💡 **Tip:**  
