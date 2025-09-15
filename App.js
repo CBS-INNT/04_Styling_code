@@ -4,7 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import Icon from 'react-native-vector-icons/Ionicons';
+import { Ionicons } from '@expo/vector-icons';
+
 
 import ListScreen from './screens/ListScreen';
 import ProfileScreen from './screens/ProfileScreen';
@@ -51,7 +52,7 @@ export default function App() {
                 iconName = focused ? 'person' : 'person-outline';
             }
 
-            return <Icon name={iconName} size={size} color={color} />;
+            return <Ionicons name={iconName} size={size} color={color} />;
         },
           
       })}
